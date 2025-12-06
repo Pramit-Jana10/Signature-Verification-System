@@ -6,15 +6,15 @@ This project provides user and admin authentication, signature comparison using 
 
 ---
 
-## 🚀 **Features**
+##  **Features**
 
-### 🔐 **User Authentication**
+###  **User Authentication**
 
 * User registration & login
 * Admin login with auto-creation of default admin from environment variables
   (from **app.py** )
 
-### 🧠 **Signature Verification (AI Model)**
+###  **Signature Verification (AI Model)**
 
 * Uses **ResNet50 pretrained on ImageNet** for feature extraction
   (from **model_loader.py** )
@@ -22,7 +22,7 @@ This project provides user and admin authentication, signature comparison using 
   (from **helpers.py** )
 * Threshold-based match detection
 
-### 📂 **Verification Logs**
+###  **Verification Logs**
 
 * User and Admin can view logs
 * Each log stores:
@@ -34,20 +34,20 @@ This project provides user and admin authentication, signature comparison using 
   * Timestamp
     (from **routes.py** )
 
-### 🛢️ **MongoDB Atlas Integration**
+###  **MongoDB Atlas Integration**
 
 * Environment-based configuration
   (from **.env** example )
 * Auto-admin creation
 * Stores users and verification logs
 
-### 🌐 **REST API Endpoints**
+###  **REST API Endpoints**
 
 Full API support for login, register, verify, and logs.
 
 ---
 
-## 🏗️ **Project Structure**
+##  **Project Structure**
 
 ```
 project/
@@ -66,7 +66,7 @@ project/
 
 ## ⚙️ **Installation & Setup**
 
-### 1️⃣ **Clone the repository**
+###  **Clone the repository**
 
 ```sh
 git clone https://github.com/your-username/signify.git
@@ -75,7 +75,7 @@ cd signify
 
 ---
 
-### 2️⃣ **Create Virtual Environment**
+###  **Create Virtual Environment**
 
 ```sh
 python -m venv venv
@@ -85,7 +85,7 @@ venv\Scripts\activate      # Windows
 
 ---
 
-### 3️⃣ **Install Dependencies**
+###  **Install Dependencies**
 
 ```sh
 pip install -r requirements.txt
@@ -95,7 +95,7 @@ pip install -r requirements.txt
 
 ---
 
-### 4️⃣ **Configure Environment Variables**
+###  **Configure Environment Variables**
 
 Create a `.env` file:
 
@@ -110,7 +110,7 @@ Reference from your provided `.env`
 
 ---
 
-### 5️⃣ **Run the App**
+###  **Run the App**
 
 ```sh
 python app.py
@@ -124,7 +124,7 @@ http://127.0.0.1:5000
 
 ---
 
-## 🔌 **API Endpoints**
+##  **API Endpoints**
 
 ### **Auth**
 
@@ -179,7 +179,7 @@ Response:
 
 ---
 
-## 🧠 **How Signature Verification Works**
+##  **How Signature Verification Works**
 
 1. Images resized to **224×224**
 2. Features extracted using **ResNet50 (pooling=avg)**
@@ -191,7 +191,7 @@ Response:
 
 ---
 
-## 🚀 Deployment Ready
+##  Deployment Ready
 
 Included:
 
@@ -200,20 +200,3 @@ Included:
 * Gunicorn support (in requirements)
 
 ---
-
-## 📝 License
-
-MIT License (or add your license)
-
----
-
-If you'd like, I can also generate:
-
-✅ Professional project logo
-✅ API documentation (Swagger / Postman)
-✅ Better UI templates
-✅ Dockerfile + docker-compose
-✅ Deployment guide (Render, Railway, AWS, Heroku)
-
-Just tell me!
-
